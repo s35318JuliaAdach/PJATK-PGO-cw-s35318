@@ -22,7 +22,6 @@ public class Ksiazka {
         this.dostepna = true;
     }
 
-    // Dodatkowe metody, żeby inne klasy mogły "czytać" te dane
     public String getTytul() { return tytul; }
     public boolean czyDostepna() { return dostepna; }
 }
